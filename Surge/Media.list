@@ -1,21 +1,6 @@
 # (Video)
 DOMAIN,content.jwplatform.com
 DOMAIN,videos-f.jwpsrv.com
-# > Youtube
-USER-AGENT,*youtube*
-USER-AGENT,YouTube*
-DOMAIN-SUFFIX,googlevideo.com,force-remote-dns
-DOMAIN-SUFFIX,youtube.com,force-remote-dns
-DOMAIN,youtubei.googleapis.com,force-remote-dns
-# > Netflix
-USER-AGENT,Argo*
-DOMAIN-SUFFIX,netflix.com
-DOMAIN-SUFFIX,netflix.net
-DOMAIN-SUFFIX,nflxext.com
-DOMAIN-SUFFIX,nflximg.com
-DOMAIN-SUFFIX,nflximg.net
-DOMAIN-SUFFIX,nflxso.net
-DOMAIN-SUFFIX,nflxvideo.net
 # > HBO
 USER-AGENT,HBO%20NOW*
 DOMAIN-SUFFIX,hbo.com
@@ -49,14 +34,3 @@ DOMAIN-SUFFIX,hayabusa.io
 DOMAIN,linear-abematv.akamaized.net
 # > encoreTVB
 USER-AGENT,encoreTVB*
-
-# (Music)
-# > Spotify
-USER-AGENT,Spotify*
-DOMAIN-SUFFIX,scdn.co
-DOMAIN-SUFFIX,spotify.com
-DOMAIN-SUFFIX,spoti.fi
-# > JOOX
-USER-AGENT,WeMusic*
-USER-AGENT,JOOX*
-DOMAIN-SUFFIX,joox.com
